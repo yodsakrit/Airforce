@@ -14,7 +14,7 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ToastrModule } from 'ngx-toastr';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
-
+import { HomeComponent } from '../../home/home.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -26,6 +26,7 @@ import { UpgradeComponent } from '../../upgrade/upgrade.component';
   ],
   declarations: [
     DashboardComponent,
+    HomeComponent,
     UserProfileComponent,
     TableListComponent,
     UpgradeComponent,

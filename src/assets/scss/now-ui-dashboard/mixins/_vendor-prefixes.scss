@@ -62,14 +62,17 @@
 
 @mixin sidebar-color($color){
   &:after{
-    background: $color;
+    background: #ffffff;
   }
 
   .nav li.active > a{
-    color: $color;
+    color: #007fa4;
 
     i{
-      color: $color;
+      color: #007fa4;
+    }
+    p{
+      color: #007fa4;
     }
   }
 }

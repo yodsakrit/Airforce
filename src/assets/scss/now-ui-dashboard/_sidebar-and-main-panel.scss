@@ -109,7 +109,10 @@
                 background-color: $opacity-1;
 
                 i{
-                  color: $white-color;
+                  color: #007fa4;
+                }
+                p{
+                  color:#007fa4;
                 }
             }
 
@@ -148,7 +151,6 @@
             line-height: 30px;
             width: 34px;
             text-align: center;
-            color: $opacity-5;
             position: relative;
         }
     }
@@ -222,12 +224,12 @@
         }
 
         .simple-text{
-            text-transform: uppercase;
+            text-transform: unset;
             padding: $padding-base-vertical 0;
             display: block;
             white-space: nowrap;
             font-size: $font-size-large;
-            color: $white-color;
+            color: #007fa4;
             text-decoration: none;
             font-weight: $font-weight-normal;
             line-height: 30px;
