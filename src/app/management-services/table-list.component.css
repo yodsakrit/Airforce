@@ -1,0 +1,60 @@
+.broder-but {
+  border-bottom: 1px solid #007fa4;
+}
+
+h4 {
+  color: #007fa4;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+p{
+  font-size: 10px;
+  color: #939393;
+}
+span {
+  font-size: 16px;
+  color: #ff932f;
+}
+.add-edit{
+  color:#939393;
+  padding-bottom: 40px;
+}
+.border-grit {
+  border: 1px solid silver;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+.btn-add {
+
+  height: 120px;
+  width: 120px;
+  color: #007fa4;
+  text-align: center;
+  background-color: #f2f2f2;
+  border: 0;
+  font-weight: 300;
+  border-radius: 60px;
+}
+.btn-info-edit{
+ background-color: #c7ebff;
+ font-size: 16px;
+ color: #007fa4;
+ border-radius: 10px;
+
+}
+.btn-info-save{
+  background-color: #007fa4;
+}
+.span-add-list{
+  font-size: 40px;
+  font-weight: 800
+}
+.btn-add-service{
+  background-color: #f2f2f2;
+  font-size: 30px;
+  font-weight: 300;
+  color: #007fa4;
+  border-radius: 10px;
+}

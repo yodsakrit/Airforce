@@ -7,12 +7,11 @@ declare interface RouteInfo {
     class: string;
 }
 export const ROUTES: RouteInfo[] = [
-    { path: '/home', title: 'หน้าหลัก',  icon: 'fas fa-clock', class: '' },
-    { path: '/management-services', title: 'จัดการงานบริการ',  icon:'fas fa-star', class: '' },
-    { path: '/history', title: 'ประวัติการทำรายการ',  icon:'fas fa-file-alt', class: '' },
-    { path: '/user-srevice', title: 'ข้อมูลผู้ให้บริการ',  icon:'', class: '' },
-
-    { path: '/user-profile', title: 'รายงานข้อมูลสมาชิก',  icon:'users_single-02', class: '' },
+    { path: '/home', title: 'หน้าหลัก',  icon: 'arrows-1_cloud-download-93', class: '' },
+    { path: '/management-services', title: 'จัดการงานบริการ',  icon:'arrows-1_cloud-download-93', class: '' },
+    { path: '/history', title: 'ประวัติการทำรายการ',  icon:'arrows-1_cloud-download-93', class: '' },
+    { path: '/user-srevice', title: 'ข้อมูลผู้ให้บริการ',  icon:'arrows-1_cloud-download-93', class: '' },
+    { path: '/user-profile', title: 'รายงานข้อมูลสมาชิก',  icon:'arrows-1_cloud-download-93', class: '' },
 
 ];
 

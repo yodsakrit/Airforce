@@ -15,7 +15,7 @@
     top: 0;
     height: 100%;
     bottom: 0;
-    width: 260px;
+    width: 320px;
     left: 0;
     z-index: 1030;
 
@@ -23,7 +23,7 @@
         position: relative;
         height: calc(100vh - 75px);
         overflow: auto;
-        width: 260px;
+        width: 320px;
         z-index: 4;
         padding-bottom: 100px;
 
@@ -87,9 +87,10 @@
             }
 
             > a{
-                margin: 10px 15px 0;
+
+                margin: 10px 30px 0;
                 border-radius: $btn-round-radius;
-                color: $white-color;
+                color: #68b0d9;
                 display: block;
                 text-decoration: none;
                 position: relative;
@@ -101,18 +102,20 @@
             }
 
             &:first-child > a{
-                margin: 0 15px;
+                margin: 0 30px;
+
             }
 
             &:hover:not(.active) > a,
             &:focus:not(.active) > a{
                 background-color: $opacity-1;
-
+                font-weight: 300;
                 i{
                   color: #007fa4;
                 }
                 p{
                   color:#007fa4;
+
                 }
             }
 
@@ -231,7 +234,7 @@
             font-size: $font-size-large;
             color: #007fa4;
             text-decoration: none;
-            font-weight: $font-weight-normal;
+            font-weight: 300;
             line-height: 30px;
             overflow: hidden;
         }
@@ -313,7 +316,7 @@
     width: $sidebar-width;
     // width: 100%;
     background-color: $light-gray;
-    background-color: #ebecf1;
+    background-color: #ffffff;
 
     @include transition (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
 
@@ -346,7 +349,7 @@
 @media (min-width: 991px) {
   .sidebar{
     display: block;
-    box-shadow: $sidebar-box-shadow;
+   // box-shadow: $sidebar-box-shadow;
   }
 }
 

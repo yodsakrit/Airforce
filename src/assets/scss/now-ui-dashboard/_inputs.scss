@@ -146,7 +146,7 @@
     .form-control,
     .form-control + .input-group-prepend .input-group-text,
     .form-control + .input-group-append .input-group-text{
-        background-color: $opacity-gray-3;
+        background-color: #9e9e9e;
         border: medium none;
         &:focus,
         &:active,
@@ -193,7 +193,7 @@
     & i{
       opacity: .5;
     }
-    
+
     @include transition-input-focus-color();
 
     .has-danger.input-group-focus &{

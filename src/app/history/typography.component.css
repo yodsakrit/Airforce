@@ -15,9 +15,6 @@ h5{
 }
 h4{
   padding-left: 40px;
-  font-size: 22px;
-  font-weight: 300;
-  margin-left: 20px;
   color: #007fa4;
 }
 hr{
@@ -31,16 +28,4 @@ hr{
 tr {
   color: #007fa4;
 }
-.btn-dropdown{
-    border-width: 2px;
-    font-weight: 400;
-    font-size: 0.8571em;
-    line-height: 1.35em;
-    border: none;
-    margin: 0px 0px;
-    border-radius: 0.1875rem;
-    padding: 10px 20px;
-    cursor: pointer;
-    background-color: #888;
-    color: #FFFFFF;
-}
+

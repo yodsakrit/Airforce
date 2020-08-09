@@ -112,8 +112,8 @@
 
         &:hover,
         &:focus{
-            color: $primary-states-color;
-
+            //color: $primary-states-color;
+            color: #68b0d9;
             &:not(.nav-link){
                 box-shadow: none;
             }
