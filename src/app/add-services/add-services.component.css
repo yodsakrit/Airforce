@@ -1,0 +1,54 @@
+h4 {
+  color: #007fa4;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.broder-but {
+  border-bottom: 1px solid #007fa4;
+  padding-top: 10px;
+}
+
+.input-details {
+  border: 0px;
+  outline: none;
+}
+
+span {
+  font-size: 16px;
+  color: #ff932f;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 200;
+
+}
+
+h6 {
+  color: #007fa4;
+  font-weight: 300;
+}
+
+
+.plusminus-add {
+  background: #c2edff;
+  border: none;
+  font-size: 16px;
+  font-weight: 200;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #0093cf;
+  outline: none;
+}
+
+.btn-info-save {
+  background: #0093cf;
+}
+
+input[type="button"] {
+  font-size: 18px;
+  font-weight: 300;
+}

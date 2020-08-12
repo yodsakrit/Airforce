@@ -1,0 +1,66 @@
+<div class="main-content">
+  <div class="container">
+    <div class="row mt-5">
+      <h4>แพ็คเกตสุดคุ้ม</h4>
+      <img src="./assets/img/star.png" style="height: 40px; margin-left: 20px;">
+
+    </div>
+
+    <div class=" row broder-but">
+    </div>
+
+    <div class="row mt-3">
+      <div class="col-12">
+        <h4 style="font-weight: 400"><i class="now-ui-icons arrows-1_minimal-left" style="font-weight: 400"></i>
+          เพิ่มข้อมูล</h4>
+      </div>
+      <div class="col-12 mt-3 text-center">
+        <img src="./assets/img/add-service-header.png" class="w-100">
+      </div>
+      <div class="col-12 mt-3 ">
+        <div class="col-12 border rounded p-3">
+          <p> <i class="now-ui-icons ui-1_check mr-3"></i>กำลังพล ทอ. และครอบครัวมีศักยภาพ</p>
+          <p> <i class="now-ui-icons ui-1_check mr-3"> </i>รวดเร็ว ปลอดภัย ไว้ใจได้</p>
+          <p> <i class="now-ui-icons ui-1_check mr-3"> </i>มีหน่วยงานตรวจสอบและรองรองในการส่งเสริมการฝึกอาชีพ</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="row mt-5 ">
+        <h4>ชื่อบริการ</h4>
+        <div class="col-12 border rounded p-3">
+          <input class="input-details w-100 pb-5" type="text" placeholder="เพิ่มข้อมูล">
+        </div>
+      </div>
+      <div class="row mt-5 ">
+        <h4>รายละเอียดการให้บริการ</h4>
+        <div class="col-12 border rounded p-3">
+          <input class="input-details w-100 pb-5" type="text" placeholder="เพิ่มข้อมูล">
+        </div>
+      </div>
+      <div class="row mt-5 ">
+        <h4>เงื่อนไขการให้บริการ</h4>
+        <div class="col-12 border rounded p-3">
+          <input class="input-details w-100 pb-5" type="text" placeholder="เพิ่มข้อมูล">
+        </div>
+      </div>
+      <div class="row mt-5 w-50">
+        <h4>ราคาเริ่มต้น</h4>
+        <div class="col-12 border rounded p-3 ">
+          <input class="input-details w-100 pb-3" type="text" placeholder="฿000">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-12 text-center mt-3">
+      <button type="button" class="btn btn-danger mr-3" (click)="clickCancel()"
+        [routerLink]="['/management-services']">ยกเลิกการแก้ไข</button>
+      <button type="button" class="btn btn-info-save" (click)="clickSave()"
+        [routerLink]="['/management-services']">บันทึกการแก้ไข</button>
+    </div>
+
+
+    <!-- container -->
+  </div>
+</div>

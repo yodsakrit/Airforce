@@ -15,6 +15,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ToastrModule } from 'ngx-toastr';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { HomeComponent } from '../../home/home.component';
+import { EditServicesComponent } from '../../edit-services/edit-services.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -32,6 +33,7 @@ import { HomeComponent } from '../../home/home.component';
     UpgradeComponent,
     TypographyComponent,
     IconsComponent,
+    EditServicesComponent,
     MapsComponent,
     NotificationsComponent,
   ]

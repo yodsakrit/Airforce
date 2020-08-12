@@ -13,6 +13,8 @@ import { AppComponent } from './app.component';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { LoginComponent } from './login/login.component';
+//import { AddServicesComponent } from './add-services/add-services.component';
+//import { EditServicesComponent } from './edit-services/edit-services.component';
 
 
 @NgModule({
@@ -31,6 +33,8 @@ import { LoginComponent } from './login/login.component';
     AppComponent,
     LoginComponent,
     AdminLayoutComponent,
+  //  AddServicesComponent,
+   // EditServicesComponent,
 
   ],
   providers: [],

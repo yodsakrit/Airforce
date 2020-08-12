@@ -11,5 +11,7 @@ export class TableListComponent implements OnInit {
 
   ngOnInit() {
   }
+  gotoEdit_service(){
 
+  }
 }

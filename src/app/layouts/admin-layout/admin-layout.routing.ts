@@ -9,6 +9,8 @@ import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { HomeComponent } from '../../home/home.component';
+import { EditServicesComponent } from '../../edit-services/edit-services.component';
+import { AddServicesComponent } from '../../add-services/add-services.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'home',      component: HomeComponent },
@@ -16,5 +18,6 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'history',     component: TypographyComponent },
     { path: 'user-srevice',          component: IconsComponent },
     { path: 'user-profile',   component: UserProfileComponent },
-
+    { path: 'edit-services',   component:  EditServicesComponent},
+    { path: 'add-services',   component:  AddServicesComponent},
 ];
