@@ -3,7 +3,13 @@
   box-shadow: 5px 8px 18px #c0c0c0 !important;
   padding: 20px;;
 }
-
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+.ui-1_zoom-bold{
+color: #000;
+}
 h2{
   color: #007fa4;
   padding-left: 20px;
