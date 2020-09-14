@@ -1,0 +1,17 @@
+.btn-info-save {
+  background: #0093cf;
+  font-size: 18px;
+  font-weight: 300;
+}
+.btn-danger{
+  font-size: 18px;
+  font-weight: 300;
+}
+.text-cancel{
+  font-size: 20px;
+  font-weight: 300;
+  color: #4a4947;
+}
+h5{
+  font-weight: 500;
+}

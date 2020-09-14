@@ -11,6 +11,7 @@ import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { HomeComponent } from '../../home/home.component';
 import { EditServicesComponent } from '../../edit-services/edit-services.component';
 import { AddServicesComponent } from '../../add-services/add-services.component';
+import { EditHistoryComponent } from '../../edit-history/edit-history.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'home',      component: HomeComponent },
@@ -20,4 +21,5 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'user-profile',   component: UserProfileComponent },
     { path: 'edit-services',   component:  EditServicesComponent},
     { path: 'add-services',   component:  AddServicesComponent},
+    { path: 'edit-history',   component:  EditHistoryComponent},
 ];

@@ -1,0 +1,21 @@
+<div class="main-content">
+  <div class="container">
+    <div class="row text-center mt-5">
+      <div class="col-12">
+        <h5>ยืนยันการยกเลิก</h5>
+      </div>
+      <div class="col-12">
+        <p class="text-cancel">คุณมั่นใจที่จะทำการยกเลิก</p>
+      </div>
+      <div class="col-12">
+        <p class="text-cancel">รายการ 10010</p>
+      </div>
+
+    </div>
+    <div class="col-12 text-center mb-3">
+      <button type="button" class="btn btn-danger mr-3" (click)="clickCancel()">ยกเลิก</button>
+      <button type="button" class="btn btn-info-save" (click)="clickSave()"
+        [routerLink]="['/management-services']">ยืนยัน</button>
+    </div>
+  </div>
+</div>

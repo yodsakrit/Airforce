@@ -13,6 +13,8 @@ import { AppComponent } from './app.component';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { LoginComponent } from './login/login.component';
+import { CancelHistoryComponent } from './cancel-history/cancel-history.component';
+
 //import { AddServicesComponent } from './add-services/add-services.component';
 //import { EditServicesComponent } from './edit-services/edit-services.component';
 
@@ -33,6 +35,8 @@ import { LoginComponent } from './login/login.component';
     AppComponent,
     LoginComponent,
     AdminLayoutComponent,
+    CancelHistoryComponent,
+
   //  AddServicesComponent,
    // EditServicesComponent,
 
