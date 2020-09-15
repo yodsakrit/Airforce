@@ -1,12 +1,20 @@
-.cu-font-size{
+.cu-font-size {
   font-size: 18px !important;
   font-weight: 200;
   color: #939393 !important;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 1px 3px #c0c0c0 !important;
 }
-.text-nav{
+.text-nav {
   margin: 0 30px;
   color: #208faf;
   font-weight: 300;
+}
+.iconMenu {
+  max-width: 40px;
+  padding: 5px;
+  margin-left: 20px;
+}
+.cu-font-size {
+  display: flex !important;
 }

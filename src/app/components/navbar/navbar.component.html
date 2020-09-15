@@ -1,43 +1,148 @@
-
-<nav class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned" style=" position: static !important;">
-    <div class="container-fluid">
-        <div class="navbar-wrapper">
-            <div class="navbar-toggle">
-                <button type="button" class="navbar-toggler" (click)="sidebarToggle()">
-                    <span class="navbar-toggler-bar bar1"></span>
-                    <span class="navbar-toggler-bar bar2"></span>
-                    <span class="navbar-toggler-bar bar3"></span>
-                </button>
-            </div>
-            <a class="navbar-brand" href="#pablo">{{getTitle()}}</a>
-        </div>
-        <button class="navbar-toggler" type="button" (click)="collapse()"
-          [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
-          <span class="navbar-toggler-bar navbar-kebab"></span>
-          <span class="navbar-toggler-bar navbar-kebab"></span>
-          <span class="navbar-toggler-bar navbar-kebab"></span>
+<nav
+  class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned"
+  style="position: static !important;"
+>
+  <div class="container-fluid">
+    <div class="navbar-wrapper">
+      <div class="navbar-toggle">
+        <button type="button" class="navbar-toggler" (click)="sidebarToggle()">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="collapseExample" [ngbCollapse]="isCollapsed">
-          <form>
-            <div class="input-group no-border">
-                 <input type="text" value="" class="form-control" placeholder="ค้นหา...">
-              <div class="input-group-append">
-                <div class="input-group-text">
-                  <i class="now-ui-icons ui-1_zoom-bold"></i>
+      </div>
+      <a class="navbar-brand" href="#pablo">{{ getTitle() }}</a>
+    </div>
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="collapse()"
+      [attr.aria-expanded]="!isCollapsed"
+      aria-controls="collapseExample"
+    >
+      <span class="navbar-toggler-bar navbar-kebab"></span>
+      <span class="navbar-toggler-bar navbar-kebab"></span>
+      <span class="navbar-toggler-bar navbar-kebab"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="collapseExample"
+      [ngbCollapse]="isCollapsed"
+    >
+      <form>
+        <div class="input-group no-border">
+          <input
+            type="text"
+            value=""
+            class="form-control"
+            placeholder="ค้นหา..."
+          />
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <i class="now-ui-icons ui-1_zoom-bold"></i>
+            </div>
+          </div>
+        </div>
+      </form>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <div class="dropdown">
+            <div
+              class="btn-dropdown btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              placement="bottom-left"
+              aria-haspopup="true"
+              aria-expanded="false"
+              style="background-color: transparent; color: #007fa4;"
+            >
+              <img src="assets/img/icon-alert.png" alt="" />
+            </div>
+            <div
+              class="dropdown-menu"
+              style="left: -1680%;"
+              aria-labelledby="dropdownMenuButton"
+            >
+              <div class="dropdown-item" href="#">
+                <span style="float: right;">7/2/2563 10:15</span>
+                <br />
+                <div style="display: flex;">
+                  <div>
+                    <img
+                      style="width: 100px;"
+                      src="assets/img/dog1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      width: 400px;
+                      padding-left: 10px;
+                    "
+                  >
+                    <div style="font-size: 14px;">
+                      ตรวจสอบผู้สมัครเป็นผู้ให้บริการ
+                    </div>
+                    <div style="font-size: 10px;">
+                      โปรดตรวจสอบเอกสารการสมัคร
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-item" href="#">
+                <span style="float: right;">7/2/2563 09:01</span>
+                <br />
+                <div style="display: flex;">
+                  <div>
+                    <img
+                      style="width: 100px;"
+                      src="assets/img/dog2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      width: 400px;
+                      padding-left: 10px;
+                    "
+                  >
+                    <div style="font-size: 14px;">
+                      รายงานพฤติกรรมที่ไม่เหมาะสม
+                    </div>
+                    <div style="font-size: 10px;">
+                      ตรวจสอบผู้ให้บริการ ณัฐวุฒิ สมประสงค์
+                      ว่ากระทำความผิดตามกฏข้อบังคับหรือไม่
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </form>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#pablo">
-                <i class="now-ui-icons users_single-02" style="color: #68b0d9"> </i>
-                <p style=" color: #68b0d9;">
-                    ผู้ดูแลระบบ
-                </p>
-              </a>
-            </li>
-          </ul>
-        </div>
+          </div>
+          <!-- <a class="nav-link dropdown-toggle" data-toggle="dropdown">
+            <img src="assets/img/icon-alert.png" alt="" />
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div> -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pablo">
+            <i class="now-ui-icons users_single-02" style="color: #68b0d9;"></i>
+            <p style="color: #68b0d9;">
+              ผู้ดูแลระบบ
+            </p>
+          </a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>

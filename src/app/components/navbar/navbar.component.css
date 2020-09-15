@@ -1,0 +1,13 @@
+.dropdown-toggle img {
+  width: 25px;
+  cursor: pointer;
+}
+::ng-deep .dropdown .dropdown-toggle:after {
+  display: none;
+}
+.dropdown-toggle {
+  border: none;
+}
+::ng-deep .dropdown-item {
+  white-space: unset;
+}
