@@ -1,23 +1,22 @@
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgModule } from '@angular/core';
-import { FormsModule,ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { RouterModule } from '@angular/router';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { NgModule } from '@angular/core'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+import { HttpClientModule } from '@angular/common/http'
+import { RouterModule } from '@angular/router'
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
+import { ToastrModule } from 'ngx-toastr'
 
-import { AppRoutingModule } from './app.routing';
-import { ComponentsModule } from './components/components.module';
+import { AppRoutingModule } from './app.routing'
+import { ComponentsModule } from './components/components.module'
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './app.component'
 
-import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import { LoginComponent } from './login/login.component';
-import { CancelHistoryComponent } from './cancel-history/cancel-history.component';
+import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component'
+import { LoginComponent } from './login/login.component'
+import { UserDetailComponent } from './user-detail/user-detail.component'
 
 //import { AddServicesComponent } from './add-services/add-services.component';
 //import { EditServicesComponent } from './edit-services/edit-services.component';
-
 
 @NgModule({
   imports: [
@@ -29,19 +28,17 @@ import { CancelHistoryComponent } from './cancel-history/cancel-history.componen
     ReactiveFormsModule,
     AppRoutingModule,
     NgbModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
   ],
   declarations: [
     AppComponent,
     LoginComponent,
     AdminLayoutComponent,
-    CancelHistoryComponent,
-
-  //  AddServicesComponent,
-   // EditServicesComponent,
-
+    UserDetailComponent,
+    //  AddServicesComponent,
+    // EditServicesComponent,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

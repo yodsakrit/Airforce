@@ -11,7 +11,7 @@
           <span class="navbar-toggler-bar bar3"></span>
         </button>
       </div>
-      <a class="navbar-brand" href="#pablo">{{ getTitle() }}</a>
+      <a class="navbar-brand" href="#pablo" >{{ getTitle() }}</a>
     </div>
     <button
       class="navbar-toggler"
@@ -57,7 +57,7 @@
               aria-expanded="false"
               style="background-color: transparent; color: #007fa4;"
             >
-              <img src="assets/img/icon-alert.png" alt="" />
+              <img src="assets/img/icon-alert.png" alt="" style="width: 25px; margin-top: 5px; margin-left: 10px;" />
             </div>
             <div
               class="dropdown-menu"
@@ -135,7 +135,7 @@
           </div> -->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#pablo">
+          <a class="nav-link" [routerLink]="['/user-detail']">
             <i class="now-ui-icons users_single-02" style="color: #68b0d9;"></i>
             <p style="color: #68b0d9;">
               ผู้ดูแลระบบ
