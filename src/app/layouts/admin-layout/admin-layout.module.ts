@@ -16,6 +16,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { HomeComponent } from '../../home/home.component';
 import { EditServicesComponent } from '../../edit-services/edit-services.component';
+import { EditHistoryComponent } from '../../edit-history/edit-history.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -36,6 +37,7 @@ import { EditServicesComponent } from '../../edit-services/edit-services.compone
     EditServicesComponent,
     MapsComponent,
     NotificationsComponent,
+    EditHistoryComponent,
   ]
 })
 
